@@ -1,0 +1,80 @@
+body { 
+margin: 0;
+margin-top: 50 px;
+font-family= serif;
+}
+
+
+
+header * {
+display: inline;
+height: 50px;
+}
+
+header ul {
+padding: 0;
+}
+
+header li {
+margin-left: 20 px;
+}
+
+section {
+height: 100vh;
+border: 1px solid black;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+footer {
+text-align: center;
+padding: 0px;
+height: 40px;
+line-height: 40px;
+}
+
+#first h1 {
+font-size: 3.5em;
+}
+
+#hero i {
+font-size: 1.5em;
+}
+#table-of-contents h2 {
+font-size: 2.5em;
+}
+
+#contact h2 { 
+margin-left: auto;
+margin-right: auto;
+}
+
+footer h5 {
+background: #000000;
+color: #ffffff;
+}
+
+#table-of-contents table, tr, th {
+border-collapse: collapse; 
+border: 2px solid;
+padding: 10px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#first { 
+background: rgb(255,191,221);
+background: linear-gradient(180deg, rgba(255,191,221,1) 0%, rgba(255,132,199,1) 48%, rgba(255,255,255,1) 100%);
+}
+#second {
+background: rgb(255,191,221);
+background: linear-gradient(0deg, rgba(255,191,221,1) 0%, rgba(255,132,199,1) 48%, rgba(255,255,255,1) 100%);
+}
+
+#third { 
+background: rgb(255,191,221);
+background: linear-gradient(180deg, rgba(255,191,221,1) 0%, rgba(255,132,199,1) 48%, rgba(255,255,255,1) 100%);
+}
+
